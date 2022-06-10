@@ -1,4 +1,4 @@
-# 1. Polina Bondar g
+# 1. Polina Bondar
 ## 2. Contacts
 
 > discord: polina#1953 <br>
