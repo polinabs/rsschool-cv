@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: system-ui, sans-serif;
+
+}
+
+.nav-sections{
+    display: flex;
+    justify-content: space-around;
+
+    list-style-type: none;
+
+}
+
+
+.section{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-contacts{
+    list-style-type: none;
+}
+
+.header-img__me{
+    width: 17vw;
+    height: auto;
+
+    margin: 5vw;
+}
+
+.github-logo{
+    width: 7vw;
+    height: auto;
+}
+
+.rs-logo{
+    width: 17vw;
+    height: auto; 
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
