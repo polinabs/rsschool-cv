@@ -3,22 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>CV Polina Bondar</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <meta name="description" content="CV Polina Bondar">
+  <meta name="author" content="Polina Bondar">
+  
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <header>
-        <div>
-            <div>
-                <img src="img/avatar.png" alt="avatar">
+        <div class="header">
+            <div class="header-img">
+                <img class="header-img__me" src="img/avatar.png" alt="Personal photo">
                 
             </div>
-            <div>
+            <div class="header-info">
                 <h1>Polina Bondar</h1>
-                <ul>
+                <ul class="header-contacts">
                     <li>Discord: polina (polinabs)#1953</li>
                     <li>e-mail: polinabondar4@gmail.com</li>
                     <li>mob.: +380 (96) 094 69 91</li>
@@ -28,15 +30,16 @@
 
     </header>
     <main>
-        <nav>
-            <ul>
-                <li>Contacts</li>
-                <li>About Me</li>
-                <li>Skills</li>
-                <li>Code example</li>
-                <li>Work experience</li>
-                <li>Education and courses</li>
-                <li>Language</li>
+        <nav class="navigation">
+            <ul class="nav-sections">
+                <li><a class="section" href="#">Contacts</a></li>
+                <li><a class="section" href="#">About Me</a></li>
+                <li><a class="section" href="#">Skills</a></li>
+                <li><a class="section" href="">Code example</a></li>
+                <li><a class="section" href="">Work experience</a></li>
+                <li><a class="section" href="">Education and courses</a></li>
+                <li><a class="section" href="">Language</a></li>
+                
             </ul>
         </nav>
         <section>
@@ -95,10 +98,10 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>2022</p>
-        <img src="img/logo-github.svg" alt="gitHUB ac">
-        <img src="img/logo-rs-scool.svg" alt="logo course">
+        <img class="github-logo" src="img/logo-github.svg" alt="gitHUB ac">
+        <img class="rs-logo" src="img/logo-rs-scool.svg" alt="logo course">
     </footer>
   
 </body>
