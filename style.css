@@ -6,11 +6,22 @@
 
 }
 
+.name{
+    font-size: 3vw;
+}
+
+.header-contacts{
+    font-size: 1.2vw;
+}
+
 .nav-sections{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
     list-style-type: none;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
 
 }
 
@@ -19,7 +30,22 @@
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    font-size: 1.3vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+
+    
+    
 }
+
+.section:hover{
+    color: white;
+    background-color: black;
+    
+}
+
 
 .header{
     display: flex;
@@ -52,4 +78,90 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
+}
+
+.title{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2vw;
+    margin-left: 27vw;
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+}
+
+.about_text{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+}
+
+.skills_list{
+    font-size: 1.2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    list-style: inside;
+    margin-bottom: 2vw;
+    list-style-type: square;
+}
+
+.code_ex{
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+.experience_list{
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    list-style-type: none;
+}
+
+.experience_list__item{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;
+}
+
+.experience_list__item:hover{
+    color: white;
+    background-color: black;
+}
+
+.education-un {
+    list-style-type: none;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.language-list{
+    
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    list-style: inside;
+   
+    list-style-type: square;
+}
+
+.footer{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-year{
+    font-size: 1.2vw;
 }
