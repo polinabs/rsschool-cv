@@ -18,8 +18,8 @@
                 <img class="header-img__me" src="img/avatar.png" alt="Personal photo">
                 
             </div>
-            <div class="header-info">
-                <h1>Polina Bondar</h1>
+            <div id="contacts" class="header-info">
+                <h1 class="name">Polina Bondar</h1>
                 <ul class="header-contacts">
                     <li>Discord: polina (polinabs)#1953</li>
                     <li>e-mail: polinabondar4@gmail.com</li>
@@ -32,36 +32,36 @@
     <main>
         <nav class="navigation">
             <ul class="nav-sections">
-                <li><a class="section" href="#">Contacts</a></li>
-                <li><a class="section" href="#">About Me</a></li>
-                <li><a class="section" href="#">Skills</a></li>
-                <li><a class="section" href="">Code example</a></li>
-                <li><a class="section" href="">Work experience</a></li>
-                <li><a class="section" href="">Education and courses</a></li>
-                <li><a class="section" href="">Language</a></li>
+                <li><a class="section" href="#contacts">Contacts</a></li>
+                <li><a class="section" href="#about">About Me</a></li>
+                <li><a class="section" href="#skills">Skills</a></li>
+                <li><a class="section" href="#code">Code example</a></li>
+                <li><a class="section" href="#experience">Work experience</a></li>
+                <li><a class="section" href="#education">Education and courses</a></li>
+                <li><a class="section" href="#language">Language</a></li>
                 
             </ul>
         </nav>
-        <section>
-            <h2>About Me</h2>
-            <p>I`m 23 years old. Nowadays I work as manager/personal assistant, I am engaged in the selection of electronic components for customer requests. This is my first full-time job. 
+        <section id="about">
+            <h2 class="title">About Me</h2>
+            <p class="about_text">I`m 23 years old. Nowadays I work as manager/personal assistant, I am engaged in the selection of electronic components for customer requests. This is my first full-time job. 
                 Besides that, I was also fond of design, I developed designs for landings and promotional publications. In the process, I became interested in website layout and wanted to improve my skills in programming.
                 I consider flexibility and diligence to be my strengths. I like to explore areas that interest me.
                 I want to improve my skills for a job opportunity in the IT field.</p>
         </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
+        <section id="skills">
+            <h2 class="title">Skills</h2>
+            <ul class="skills_list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JS (basics)</li>
                 <li>Adobe Illustrator, Photoshop, InDesign</li>
             </ul>
         </section>
-        <section>
-            <h2>Code example</h2>
-            <pre>
-                <code>
+        <section id="code">
+            <h2 class="title">Code example</h2>
+            <pre class="code_ex">
+                <code class="language-javascript hljs">
                     function basicOp(operation, value1, value2) {
                         if (operation === '+') {
                           return value1 + value2
@@ -78,30 +78,45 @@
                 </code>
             </pre>
         </section>
-        <section>
-            <h2>Work experience</h2>
-            <p>https://github.com/polinabs/rsschool-cv.git</p>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <ul>
+        <section id="experience">
+            <h2 class="title">Work experience</h2>
+
+            <ul class="experience_list">
                 <li>
-                    National Technical University of Ukraine 'Kyiv Polytechnic Institute', 
+                    <a class="experience_list__item" target="_blank" href="https://polinabs.github.io/rsschool-cv/cv">CV for RSscool</a>
+                </li>
+                <li>
+                    <a class="experience_list__item" target="_blank" href="https://polinabs.github.io/ebo/">Website "EBO": one of the EPAM homework assignments</a>
+                </li>
+                <li>
+                    <a class="experience_list__item" target="_blank" href="https://polinabs.github.io/q_d_agro-epam-/">Website "Q.D. Agro": one of the EPAM homework assignments</a>
+                </li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2 class="title">Education</h2>
+            <ul class="education-un">
+                <li>
+                    National Technical University of Ukraine 'Kyiv Polytechnic Institute',<br> 
                     Master's degree, Micro- and nano-system technology
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Language</h2>
-            <ul>
-                <li>English level - A2 (EPAM English test)</li>
+        <section id="language">
+            <h2 class="title">Language</h2>
+            <ul class="language-list">
+                <li>ENGLISH [EPAM English test result - A2]</li>
+                <li>UKRANIAN [Native]</li>
+                <li>POLISH [A1]</li>
+                <li>RUSSIAN [Fluent]</li>
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <p>2022</p>
-        <img class="github-logo" src="img/logo-github.svg" alt="gitHUB ac">
-        <img class="rs-logo" src="img/logo-rs-scool.svg" alt="logo course">
+        <p class="footer-year">2022</p>
+        <a href="https://github.com/polinabs"> <img class="github-logo" src="img/logo-github.svg" alt="gitHUB ac"></a>
+        <a href="https://rs.school/js/"><img class="rs-logo" src="img/logo-rs-scool.svg" alt="logo course"></a>
+        
     </footer>
   
 </body>
